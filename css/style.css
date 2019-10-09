@@ -1,0 +1,21 @@
+#search-field {
+    display: flex;
+    justify-content: space-around
+}
+
+.image-holder {
+    min-height: 280px;
+}
+
+.card {
+    height: 100%;
+}
+
+.custom-margin {
+    margin-top: 10px;
+}
+
+#filterAndDisplay {
+    display: flex;
+    justify-content: space-between;
+}
