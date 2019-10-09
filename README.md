@@ -1,34 +1,34 @@
-# CoderSchool FTW - * To do list *
+# CoderSchool FTW - * Google Fake News *
 
 Created with love by: `Nguyen Anh Khoa`
   
-View online [here](https://trusting-boyd-2ef687.netlify.com/)
+View online [here](https://modest-swirles-1c8487.netlify.com/)
   
-One or two sentence summary of your project. 
+Google News except it's fake and suck. But I learned how to call, manipulate data called from API. Fun.
 
 ## User Stories
 
 The following **required** functionalities are completed (this is a sample):
-* [x] User can add a new line to their to do list
-* [x] User can remove item on to do list or done list.
-* [x] User can mark an item as done item by clicking them, it will move to a new field with new border.
-* [x] User can switch done or need to do by clicking them.
-* [-]  User can mark done job with strike through ( I mark it with green ).
+* [x] The user can see a list of the 20 latest top news stories, loaded dynamically from newsapi.
+* [x] For each story, the user sees a headline, the source, a link to more, and an image.
+* [x] The user can see the total number of stories currently shown.
 
 The following **optional** features are implemented:
 
-* [x] Add favicon to the page
-* [x] Animation on an element
-* [x] Data is stored on Local
+* [x] The user can click a link at the bottom of the page to load the next 20 stories. The page should not refresh; the stories should simply be added to the bottom.
+* [x] The user can see an updated number of stories currently shown.
+* [x] The user can see how long ago the story was published in a human-friendly format; e.g. "15 minutes ago". To accomplish this, we recommend you use momentjs. Please load it into your page using cdnjs or jsdelivr (these are called CDNs).
 
 
 The following **additional** features are implemented:
 
-* [ ] Show deleted items ( will be done tonight )
+* [ ] The user can see a checkbox for every unique source of the articles loaded. For example, if the user loads four stories, and two stories are from bbc-news, one from cnn, and one from spiegel-de, the user would see three checkboxes: bbc-news, cnn, spiegel-de.
+* [ ] Next to the source name, the user sees a number representing the number of stories from that source. To continue the previous example: bbc-news (2), cnn (1), spiegel-de (1).
+* [X] The user can toggle the checkbox to hide or show stories from that source in the list.
 
 ## Time Spent and Lessons Learned
 
-Time spent: **5** hours spent in total.
+Time spent: **7** hours spent in total.
 
 Describe any challenges encountered while building the app.
 
